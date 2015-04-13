@@ -40,3 +40,9 @@ If you wish to run several problem files at once we already wrapped JavaGP in a 
 ```
 python -B planner.py
 ```
+
+If you wish to use our automated tests to compare plans (only actions names, you are free to decide your predicates and objects):
+
+```
+python -B test_planner.py
+```
