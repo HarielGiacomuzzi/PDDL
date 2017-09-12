@@ -1,0 +1,35 @@
+Hariels-MacBook-Pro:harielgiacomuzzi-planning harielgiacomuzzi$ java -jar javagp-bin-1.0/javagp.jar -d pddl/planks.pddl -p pddl/pb4.pddl 
+INFO: Running planner, maximum memory: 1,820.5MB
+INFO: Expanding graph
+INFO: Goals not possible with 1 steps
+INFO: Expanding graph
+INFO: Goals not possible with 2 steps
+INFO: Expanding graph
+INFO: Goals not possible with 3 steps
+INFO: Expanding graph
+INFO: Goals not possible with 4 steps
+INFO: Expanding graph
+INFO: Goals not possible with 5 steps
+INFO: Expanding graph
+INFO: Goals not possible with 6 steps
+INFO: Expanding graph
+INFO: Extracting solution
+INFO: Plan not found with 7 steps
+INFO: Expanding graph
+INFO: Extracting solution
+INFO: Plan found with 8 steps
+INFO: Planning took 1117ms ( 1s )
+INFO: Total memory used: 217.5MB
+INFO: Plan found:
+pick(agent_b,plank_b,island_b)
+lay(agent_b,plank_b,island_b,island_a)
+pick(agent_b,plank_a,island_b)
+cross(agent_b,island_b,island_d,plank_b)
+lay(agent_b,plank_a,island_d,island_b)
+cross(agent_a,island_a,island_b,plank_b)
+cross(agent_a,island_b,island_c,plank_a)
+cross(agent_b,island_d,island_b,plank_b)
+cross(agent_b,island_b,island_a,plank_b)
+
+INFO: Plan length: 9
+Hariels-MacBook-Pro:harielgiacomuzzi-planning harielgiacomuzzi$ 

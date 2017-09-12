@@ -1,0 +1,21 @@
+Hariels-MacBook-Pro:harielgiacomuzzi-planning harielgiacomuzzi$ java -jar javagp-bin-1.0/javagp.jar -d pddl/planksSuper.pddl -p pddl/planksSuper_1.pddl 
+SEVERE: Parser warning at line 5, column 18 file (planksSuper_1.pddl) : problem "heavyplanks" must be defined in a file "heavyplanks.pddl".
+SEVERE: Parser warning at line 5, column 17 file (planksSuper.pddl) : Domain "heavyplanks" should be defined in a file "heavyplanks.pddl".
+INFO: Running planner, maximum memory: 1,820.5MB
+INFO: Expanding graph
+INFO: Goals not possible with 1 steps
+INFO: Expanding graph
+INFO: Extracting solution
+INFO: Plan not found with 2 steps
+INFO: Expanding graph
+INFO: Extracting solution
+INFO: Plan found with 3 steps
+INFO: Planning took 950ms ( 0s )
+INFO: Total memory used: 220.5MB
+INFO: Plan found:
+heavypick(agent_a,agent_b,plank,island_a,island_b)
+heavymove(agent_a,agent_b,island_a,island_b,island_c,island_d)
+heavylay(agent_b,agent_a,plank,island_d,island_c)
+
+INFO: Plan length: 3
+Hariels-MacBook-Pro:harielgiacomuzzi-planning harielgiacomuzzi$ 

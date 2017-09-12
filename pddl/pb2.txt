@@ -1,0 +1,23 @@
+Hariels-MacBook-Pro:harielgiacomuzzi-planning harielgiacomuzzi$ java -jar javagp-bin-1.0/javagp.jar -d pddl/planks.pddl -p pddl/pb2.pddl 
+INFO: Running planner, maximum memory: 1,820.5MB
+INFO: Expanding graph
+INFO: Goals not possible with 1 steps
+INFO: Expanding graph
+INFO: Extracting solution
+INFO: Plan found with 2 steps
+INFO: Planning took 191ms ( 0s )
+INFO: Total memory used: 123MB
+INFO: Plan found:
+pick(agent,plank,island_b)
+lay(agent,plank,island_b,island_c)
+
+INFO: Plan length: 2
+Hariels-MacBook-Pro:harielgiacomuzzi-planning harielgiacomuzzi$ 
+
+
+
+
+
+
+
+
